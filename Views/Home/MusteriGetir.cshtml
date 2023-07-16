@@ -1,0 +1,70 @@
+﻿@model Musteri
+@{
+   // Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MusteriGetir</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+  
+</head>
+<body>
+
+   <form class="demo-form2" asp-action="MusteriGuncelle" method="post" enctype="multipart/form-data">
+
+            <h3 class="h2m">Güncellemek İstediğiniz Verileri Giriniz</h3>
+
+            <div class="input-wrap1">
+            <input type="hidden" asp-for="Musteri_Id" class="input" readonly="readonly">  
+            </div>
+
+            <div class="input-wrap1">
+            <label class="f-title" asp-for="Musteri_AdSoyad"> Müşteri Ad Soyad</label>
+                <input asp-for="Musteri_AdSoyad"  class="input" >
+            </div>
+
+            <div class="input-wrap1">
+            <label class="f-title" asp-for="Musteri_EMail"> EMail Adresi</label>
+                <input asp-for="Musteri_EMail"  class="input">
+            </div>
+
+            <div class="input-wrap1">
+            <label class="f-title" asp-for="Musteri_TelNo">Telefon Numarası</label>
+                <input asp-for="Musteri_TelNo"  class="input">
+            </div>
+
+            <div class="input-wrap1">
+            <label class="f-title" asp-for="Musteri_Kimlik">Kimlik Numarası</label>
+                <input asp-for="Musteri_Kimlik"  class="input">
+            </div>
+
+            <div class="input-wrap1">
+            <label class="f-title" asp-for="Musteri_DogmTarihi">Dogum Tarihi</label>
+                <input asp-for="Musteri_DogmTarihi"  class="input">
+            </div>
+
+            <div class="input-wrap1">
+            <label class="f-title" asp-for="Musteri_HesapNo">Hesap Numarası</label>
+                <input asp-for="Musteri_HesapNo"  class="input">
+            </div>
+     
+            <div class="input-wrap1">
+            <label class="f-title" asp-for="FileName"> Fotoğraf</label>
+            <input type="file" asp-for="FileName">
+
+            @*<img src="/img/@Model.FileName">*@
+            </div>
+
+   
+               <div class="input-wrap1">
+                    <input type="submit" id="submit" name="submit" value="Güncelle">
+               </div>
+         </form>
+    
+
+</body>
+</html>

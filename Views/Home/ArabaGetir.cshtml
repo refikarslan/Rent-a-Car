@@ -1,0 +1,78 @@
+﻿@model ArabaKiralamaWebApp.Models.Araba
+@{
+   // Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ArabaGetir</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+<body>
+
+      <form class="demo-form4" asp-action="ArabaGuncelle" method="post" enctype="multipart/form-data">
+
+                <h3 class="h2">Güncellemek İstediğiniz Verileri Yenileyiniz</h3>
+
+
+                 <div class="input-wrap2">
+
+          
+            <input type="hidden" asp-for="Araba_Id" class="form-control2" readonly="readonly">
+
+                </div>
+
+                <div class="input-wrap2">
+            <label class="f-title" asp-for="Araba_Marka">Araba Marka</label>
+            <input class="input" asp-for="Araba_Marka" class="form-control2">
+                </div>
+
+                <div class="input-wrap2">
+            <label class="f-title" asp-for="Araba_Model">Araba Model</label>
+            <input class="input" asp-for="Araba_Model" class="form-control2">
+                </div>
+                <div class="input-wrap2">
+            <label class="f-title" asp-for="Yıl"></label>
+            <input class="input" asp-for="Yıl" class="form-control2">
+                </div>
+
+            <div class="input-wrap2">
+            <label class="f-title" asp-for="Fiyat"></label>
+            <input class="input" asp-for="Fiyat" class="form-control2">
+            </div>
+
+                <div class="input-wrap2">
+            <label class="f-title" asp-for="Araba_Plaka">Araba Plaka</label>
+            <input class="input" asp-for="Araba_Plaka" class="form-control2">
+                </div>
+              
+                <div class="input-wrap2">
+            <label class="f-title" asp-for="Araba_Renk">Araba Renk</label>
+            <input class="input" asp-for="Araba_Renk" class="form-control2">
+              
+                </div>
+
+            <div class="input-wrap2">
+            <label class="f-title" asp-for="FileName"></label>
+            <input type="file" asp-for="FileName">
+
+
+                @*<img src="/img/@Model.FileName">*@
+
+
+            </div>
+
+                <div class="input-wrap2">
+                    <input type="submit" id="submit" name="submit" value="Güncelle">
+               </div>
+                
+            
+        </form>
+    }
+
+
+</body>
+</html>

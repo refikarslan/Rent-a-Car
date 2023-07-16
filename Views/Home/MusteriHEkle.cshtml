@@ -1,0 +1,178 @@
+﻿@using ArabaKiralamaWebApp.ViewModels.RequestModels;
+@model ArabaKiralamaWebApp.ViewModels.RequestModels.MusteriHareketEkleRequestModel
+@{
+    //Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/site.css" />
+
+<script src=" https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+
+<form class="demo-form5" asp-action="MusteriHEkle" asp-controller="Home" method="post">
+
+    <h3>Aşağıdaki Bilgileri Giriniz</h3>
+
+ 
+        <div class ="wrap">
+            <label class="f-title">Müşteri İsim : </label>
+        <select id="resim_id" class="input" asp-for="@Model.MusteriId" asp-items="@Model.Musteriler">
+            </select>
+        </div>
+        <div class="wrap">
+        <img src="~/img/6faa3da0-e891-4880-8477-7de5a5f0120e.jpg " id="img_id" class="input-img">
+        </div>
+        <br/>
+        <br />
+        <br />
+
+        <div class ="wrap">
+            <label class = "f-title" >Araba Markası : </label>
+        <select id="araba_id" class="input" asp-for="@Model.AracId" asp-items="@Model.Araclar">
+            </select>
+        </div>
+        <div class="wrap">
+        <img src="~/img/0b715101-30e1-43ed-a66d-e53fe10b29da.jpeg" id="arb_id" class="input-img">
+        </div>
+        <br />
+        <br />
+        <br />
+
+
+
+    <div class="wrap">
+        <label class="f-title" for="baslangictarih">Kira Başlangıç Tarihi</label>
+        <input type="date" id="baslangictarih" name="KiraBasla" class="input" placeholder="" required>
+        <span id="baslangic-hata" class="hata-mesaji"></span>
+    </div>
+
+    <div class="wrap">
+        <label class="f-title" for="bitistarih">Kira Bitiş Tarihi</label>
+        <input type="date" id="bitistarih" name="KiraBitir" class="input" placeholder="" required>
+        <span id="bitis-hata" class="hata-mesaji"></span>
+    </div>
+
+
+
+
+    <div class="wrap">
+        <input  type="submit" id="submit" name="submit" value="Ekle">
+       </div>
+
+  
+</form>
+
+<script>
+
+    $('#resim_id').change(function () {
+        //debugger;
+        var Id;
+        Id = { id: $(this).val() }  // this  bu event i çalıştıran elementi veriyo.
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetMusteriById", "Home")',
+            data: Id,
+            dataType: 'json',
+            //contentType:"application/json",
+            success: function (data) {
+                var  dosyaadi=data.fileName;
+                console.log(dosyaadi);
+                if (dosyaadi!==null) 
+                {
+                    $("#img_id").attr("src", `/img/${dosyaadi}`);
+                } else
+                {
+                    console.log('Hata : ' + dosyaadi);
+                    $("#img_id").attr("src", `/img/empty.png`);
+                }
+
+            }
+
+        })
+    });
+
+
+    $('#araba_id').change(function () {
+        //debugger;
+        var Id;
+        Id = { id: $(this).val() }  // this  bu event i çalıştıran elementi veriyo.
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetArabaById", "Home")',
+            data: Id,
+            dataType: 'json',
+            //contentType:"application/json",
+            success: function (data) {
+                var dosyaadi = data.fileName;
+                console.log(dosyaadi);
+                if (dosyaadi !== null) {
+                    $("#arb_id").attr("src", `/img/${dosyaadi}`);
+                } else {
+                    console.log('Hata : ' + dosyaadi);
+                    $("#arb_id").attr("src", `/img/empty.png`);
+                }
+
+            }
+
+
+        })
+    });
+
+
+
+    
+      const baslangicTarihi = document.getElementById("baslangictarih");
+      const bitisTarihi = document.getElementById("bitistarih");
+      const baslangicHata = document.getElementById("baslangic-hata");
+      const bitisHata = document.getElementById("bitis-hata");
+
+    baslangicTarihi.addEventListener("change", function () {
+        if (new Date(this.value) < new Date()) {
+           alert("Başlangıç tarihi bugünden önce olamaz.");
+        } else {
+            baslangicHata.innerHTML = "";
+            if (bitisTarihi.value !== "" && new Date(this.value) > new Date(bitisTarihi.value)) {
+                alert("Başlangıç tarihi, bitiş tarihinden büyük olamaz.");
+            } else {
+                bitisHata.innerHTML = "";
+            }
+        }
+    });
+
+    bitisTarihi.addEventListener("change", function () {
+        if (new Date(this.value) < new Date() || new Date(this.value) < new Date(baslangicTarihi.value)) {
+           alert("Bitiş tarihi, bugünden önce olamaz veya başlangıç tarihinden küçük olamaz.");
+        } else {
+            bitisHata.innerHTML = "";
+        }
+    });
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

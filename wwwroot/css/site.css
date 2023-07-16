@@ -1,0 +1,384 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+
+    background-color: lightgray;
+}
+
+
+td{
+    text-align:center;
+}
+th {
+    text-align: center;
+}
+/*musteri viewi*/
+
+table {
+    position: relative;
+    left: 80px;
+
+}
+
+.btn-secondary {
+    position: relative;
+    left: 78px;
+}
+.img {  /*hem araba hem müþteri sayfasý için kullandým*/
+    /*padding: 5px;*/
+    width: 50px;
+    height: 20px;
+    margin: auto;
+ 
+}
+/*yeni müþteri view i*/
+.demo-form1 {
+    padding: 20px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 250px;
+    height:470px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: relative;
+    left: 130px;
+}
+    .demo-form1 input::placeholder, .demo-form1 textarea::placeholder, .demo-form1 select::placeholder {
+        opacity: 0.8;
+    }
+
+.input-wrap {
+       
+        padding-right: 20px;
+        height:60px;
+    }
+
+     .input {
+        background-color: #fff;
+        border: 1px solid #bebed6;
+        width: 100%;
+        height: 20px;
+
+    }
+
+    .f-title {
+        display: block;
+        font-size: 14px;
+        padding-top:10px;
+      
+    }
+
+
+    .demo-form1 input[type="file"] {
+        padding-left: 0;
+
+    }
+ input[type="submit"] {
+        color: #fff;
+        border-color: transparent;
+        background-color: #e21346;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 8px 15px;
+        transition: 0.3s ease all;
+        position: relative;
+        margin: auto;
+        flex: 1;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        margin-top:8px;
+    }
+       input[type="submit"]:hover {
+            background-color: #c00d3a;
+        }
+
+
+        .yenimusteri{
+            margin:0;
+            text-align:center;
+         }
+
+/*   musteri getir sayfasýnýn */
+.demo-form2 {
+    padding: 15px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 300px;
+    height:440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+
+
+.h2m {
+    text-align: center;
+    margin: auto;
+}
+
+  /*araba sayfasýnýn*/
+table #araba {
+    position: relative;
+    left: 130px;
+}
+
+/*yeni araba ekleme sayfasý için*/
+
+.demo-form3 {
+    padding: 20px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 300px;
+    height: 460px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: relative;
+    left: 130px;
+}
+
+    .demo-form3 input::placeholder, .demo-form3 textarea::placeholder, .demo-form3 select::placeholder {
+        opacity: 0.8;
+    }
+
+    .demo-form3 textarea {
+        width: 100%;
+        height: 100px;
+    }
+        .f-titlee {   /*sadece yeni araba sayfasýnýn titlesi*/
+        display: block;
+        font-size: 14px;
+        padding-top:10px;
+        margin:0;
+      
+    }
+.input-wrapp {
+    padding-right: 30px;
+    height: 50px;
+   
+}
+
+
+.inputt {
+    background-color: #fff;
+    border: 1px solid #bebed6;
+    width: 90%;
+    height: 20px;
+    padding: 10px 15px;
+}
+.demo-form3 input[type="submit"] {
+    color: #fff;
+    border-color: transparent;
+    background-color: #e21346;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 15px;
+    transition: 0.3s ease all;
+    position: relative;
+    margin: auto;
+    flex: 1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+    .demo-form3 input[type="submit"]:hover {
+        background-color: #c00d3a;
+    }
+
+
+.mod {
+    height: 50px;
+    width: 100%;
+}
+.yeniaraba {
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 0;
+}
+
+
+/*araba getir sayfasýnýn*/
+.demo-form4 {
+    padding: 15px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 300px;
+    height: 440px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+.h2 {
+    text-align: center;
+    margin: auto;
+}
+
+.mod {
+    height: 50px;
+    width: 100%;
+}
+
+/*musteri hareket sayfasý*/
+table #musterihareket {
+    position: relative;
+    margin-left: 330px;
+}
+
+
+/*müþteri hareket ekleme sayfasý*/
+.demo-form5 {
+    padding: 15px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 220px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+.model {
+    height: 40px;
+    width: 100%;
+}
+
+.demo-form5 input[type="date"] {
+    background-color: #fff;
+        border: 1px solid #bebed6;
+        width: 80%;
+        height: 4px;
+        padding: 10px 15px;
+        margin-top:0;
+}
+
+
+/*müþteri hareket getir sayfasý*/
+.demo-form6 {
+    padding: 15px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+.h2 {
+    text-align: center;
+    margin: auto;
+}
+
+.mod {
+    height: 40px;
+    width: 95%;
+    background-color: #fff;
+    border: 1px solid #bebed6;
+    padding: 10px 15px;
+}
+.musterihareket {
+    margin: 0;
+    text-align: center;
+}
+
+/*musteri takip sayfasý*/
+.demo-form7 {
+    padding: 15px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+/*müþteri takip sayfam*/
+.wrape {
+    position: relative;
+    left: 80px;
+}
+
+/*hakkýmýzda sayfasý*/
+.hakkimizda {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    border-radius: 5px;
+    width: 900px;
+    height: 500px;
+    max-width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*ietiþim sayfasý*/
+.iletisim {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.input-img {
+    background-color: #fff;
+    border: 1px solid #bebed6;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

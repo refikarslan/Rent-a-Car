@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ArabaKiralamaWebApp
+build_property.RootNamespace = ArabaKiralamaWebApp
+build_property.ProjectDir = C:\Users\Refika\OneDrive\Masaüstü\ArabaKiralamaWebApp\ArabaKiralamaWebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Refika\OneDrive\Masaüstü\ArabaKiralamaWebApp\ArabaKiralamaWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/Araba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcmFiYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/ArabaGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcmFiYUdldGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/Hakkımızda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIYWtrxLFtxLF6ZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbGV0aXNpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/Musteri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdXN0ZXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/MusteriGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdXN0ZXJpR2V0aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/MusteriHareket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdXN0ZXJpSGFyZWtldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/MusteriHEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdXN0ZXJpSEVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/MusteriHGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdXN0ZXJpSEdldGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/MusteriTakip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdXN0ZXJpVGFraXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/YeniAraba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZZW5pQXJhYmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Home/YeniMusteri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZZW5pTXVzdGVyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Refika/OneDrive/Masaüstü/ArabaKiralamaWebApp/ArabaKiralamaWebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xyso01fzhn

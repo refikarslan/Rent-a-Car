@@ -1,0 +1,51 @@
+﻿@model List<Araba>
+@{
+
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Yeni Müsteri</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+<body>
+
+    <table id="araba" class="table table-striped table-bordered table-sm">
+    <tr>
+
+        <th>Araba Marka</th>
+        <th>Araba Model</th>
+        <th>Yıl</th>
+        <th>Fiyat</th>
+        <th>Araba Plaka</th>
+        <th>Araba Renk</th>
+        <th>Araba Fotograf</th>
+        <th>SİL</th>
+        <th>GÜNCELLE</th>
+    </tr>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                <tr>
+
+                    <td>@item.Araba_Marka</td>
+                    <td>@item.Araba_Model</td>
+                    <td>@item.Yıl</td>
+                    <td>@item.Fiyat</td>
+                    <td>@item.Araba_Plaka</td>
+                    <td>@item.Araba_Renk</td>
+                    <td><img class="img" src="@Url.Content("~/img/" + item.FileName)"  /></td>
+                    <td><a href="/Home/ArabaSil/@item.Araba_Id" class="btn btn-outline-danger btn-sm">SİL</a></td>
+                    <td><a href="/Home/ArabaGetir/@item.Araba_Id" class="btn btn-outline-success btn-sm">GÜNCELLE</a></td>
+                </tr>
+        }
+    </tbody>
+</table>
+    <a href="/Home/YeniAraba" class="btn btn-secondary">Araba Ekle</a>
+</body>
+</html>

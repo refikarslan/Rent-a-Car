@@ -1,0 +1,107 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+
+
+.border-top[b-xyso01fzhn] {
+    border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-xyso01fzhn] {
+  border-bottom: 1px solid #e5e5e5;
+}
+.navbar[b-xyso01fzhn] {
+    height: 60px;
+   
+}
+*[b-xyso01fzhn] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+ 
+}
+body[b-xyso01fzhn] {
+    background: #f3f5f9;
+    background-color: lightgray;
+    
+}
+.sidebar[b-xyso01fzhn] {
+    position:fixed;
+    width: 200px;
+    height:100%;
+    background: #3b5998;
+}
+
+  .sidebar ul li a[b-xyso01fzhn] {
+        color: #fff;
+        text-align:center;
+    }
+
+.sidebar ul li[b-xyso01fzhn] {
+        position:relative;
+        padding: 15px;
+        border-bottom: 1px solid black;
+        transition: .10s;
+        text-align: center;
+        
+       
+    }
+.sidebar ul li:hover[b-xyso01fzhn]{
+    background: black;
+}
+
+
+   .sidebar ul .dropdown[b-xyso01fzhn] {     /*sonraki açılır menü düzeni için*/
+        position: absolute;
+        top:50px;
+        left:55px;
+        width:120px;
+        text-align:center;
+        display:none;
+        
+    }
+
+
+    .sidebar ul ul[b-xyso01fzhn] { /*sonraki açılan menü*/
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+
+    .sidebar ul ul li[b-xyso01fzhn]{
+         width:100%;
+     }
+
+    .sidebar ul ul li a[b-xyso01fzhn] { /*sonraki açılan menü içindeki yazılar*/
+        flex:1;
+        display:flex;
+        justify-content:space-between;
+     }
+
+    .sidebar ul li .dropdown[b-xyso01fzhn] {
+        left: 185px; /*mesela menüde müşterinin üzerine gelince yeni açılan menü ana menüye tam bitişik oluyo*/
+        top: 0;
+        padding-left: 15px;
+        margin-left: 0;
+        padding-top: 0;
+        transition: .10s;
+        
+        position:absolute;
+        
+    }
+
+    .sidebar ul .dropdown ul[b-xyso01fzhn] {
+        position: relative;
+        color: #fff;
+        background: #3b5998;
+        display: block;
+        top: 0;
+        text-align: center;
+        z-index: 2;
+    }
+
+        .sidebar ul li:hover a + .dropdown[b-xyso01fzhn] {
+        display: block;
+    }

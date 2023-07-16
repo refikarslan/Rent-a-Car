@@ -1,0 +1,122 @@
+﻿
+@model ArabaKiralamaWebApp.ViewModels.Dtos.MusteriHGetirDto;
+@{
+    //Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MusteriGetir</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <script src=" https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    <script>
+
+        function Dogum() {
+            $.ajax({
+                type: "GET",
+                url: "/Home/GetMusteri?id=" + $('#isim-id :selected').val(), // Sunucu tarafında güncelleme işlemi yapacak dosyanın yolu
+                success: function (response) {
+                    $('#dogumTarih').html(response.musteri_DogmTarihi.split('T')[0]);
+                  
+                },
+                error: function (xhr, status, error) {
+                   
+                    alert("Bir hata oluştu: " + error);
+                }
+            });
+        }
+
+        function ArabaDetay() {
+            $.ajax({
+                type: "GET",
+                url: "/Home/GetAraba?id=" + $('#Araba_Id :selected').val(), // Sunucu tarafında güncelleme işlemi yapacak dosyanın yolu bu
+                success: function (response) {
+                    $('#arabaModel').html(response.araba_Model);
+                },
+                error: function (xhr, status, error) {
+                    // Hata durumunda yapılacak işlemler
+                    alert("Bir hata oluştu: " + error);
+                }
+            });
+        }
+
+        function kontrolEt() {
+
+        var kiraBaslangic = document.getElementById("kiraBaslangic").value;
+        var kiraBitis = document.getElementById("kiraBitis").value;
+
+        // Bugünün tarihini aldım
+        var bugun = new Date();
+
+        // Başlangıç tarihi bugünden önce olamaz   
+        //if (new Date(kiraBaslangic) < bugun) {
+        //    alert("Kira başlangıç tarihi bugünden önce olamaz.");
+        //    return false;
+        //}
+
+        else if (new Date(kiraBitis) < bugun) {
+            alert("Kira bitiş tarihi bugünden önce olamaz.");
+            return false;
+        }
+        else if (new Date(kiraBaslangic) > new Date(kiraBitis)) {
+            alert("Kira başlangıç tarihi, kira bitiş tarihinden büyük olamaz.");
+            return false;
+        }
+
+        return true;
+
+        }
+
+    </script>
+</head>
+<body>
+
+    <form onsubmit="return kontrolEt()" class="demo-form6" asp-action="MusteriHGuncelle" method="post">
+
+            <h3 class="musterihareket">Güncellemek İstediğiniz Verileri Giriniz</h3>
+
+           <div class="input-wrap3">
+          
+            <input type="hidden" asp-for="Id" class="input" readonly="readonly">
+            </div>
+
+
+            <div class="input-wrap3">
+            <label class="f-title" asp-for="Musteri_Id"></label>
+
+            <select onchange="Dogum()" id="isim-id" class="input" asp-for="Musteri_Id" asp-items="Model.Musteris">
+                </select>
+                <label id="dogumTarih"></label>
+            </div>
+
+
+            <div class="input-wrap3">
+            <label class="f-title" asp-for="Araba_Id"></label>
+            <select onchange="ArabaDetay()" class="input" asp-for="Araba_Id" asp-items="Model.Arabas">
+                </select>
+                <label id="arabaModel"></label>
+            </div>
+
+
+            <div class="input-wrap3">
+            <label class="f-title" asp-for="KiraBaslangic"> Kira Başlangıç</label>
+            <input type="date" asp-for="KiraBaslangic" class="input" id="kiraBaslangic">
+            </div>
+
+            <div class="input-wrap3">
+            <label class="f-title" asp-for="KiraBitis">Kira Bitiş</label>
+            <input type="date" asp-for="KiraBitis" class="input" id="kiraBitis">
+            </div>
+
+            <div class="input-wrap3">
+                <input type="submit" id="submit" name="submit" value="Güncelle" >
+            </div>
+        </form>
+    
+</body>
+</html>

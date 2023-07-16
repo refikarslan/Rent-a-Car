@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ArabaKiralamaWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ArabaKiralamaWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\0b715101-30e1-43ed-a66d-e53fe10b29da.jpeg",
+      "PackagePath": "staticwebassets\\img\\0b715101-30e1-43ed-a66d-e53fe10b29da.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\1c93037e-54c9-45a0-b829-428844bdf37a.jpg",
+      "PackagePath": "staticwebassets\\img\\1c93037e-54c9-45a0-b829-428844bdf37a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\22a364b9-65f3-47ee-9110-ded0818cce74.jpg",
+      "PackagePath": "staticwebassets\\img\\22a364b9-65f3-47ee-9110-ded0818cce74.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\2bd128bd-99d0-4c6c-9273-5ec1c08acd8a.jpeg",
+      "PackagePath": "staticwebassets\\img\\2bd128bd-99d0-4c6c-9273-5ec1c08acd8a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\2dde7a61-139f-4762-9a15-a89d53a8d5bf.jpg",
+      "PackagePath": "staticwebassets\\img\\2dde7a61-139f-4762-9a15-a89d53a8d5bf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\2eacfc59-a581-4d4b-85c8-3a55c5611c61.jpg",
+      "PackagePath": "staticwebassets\\img\\2eacfc59-a581-4d4b-85c8-3a55c5611c61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\3d6d4195-25e2-46f3-a0ff-b55e61ae9849.jpg",
+      "PackagePath": "staticwebassets\\img\\3d6d4195-25e2-46f3-a0ff-b55e61ae9849.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\3fb2367a-9ffd-49ca-98b6-46d49d86c9c1.jpg",
+      "PackagePath": "staticwebassets\\img\\3fb2367a-9ffd-49ca-98b6-46d49d86c9c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\404382aa-9ffb-4025-82b3-367690b75a61.jpg",
+      "PackagePath": "staticwebassets\\img\\404382aa-9ffb-4025-82b3-367690b75a61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\4f3ca0df-3da8-45ea-a392-22b0adcf1c51.png",
+      "PackagePath": "staticwebassets\\img\\4f3ca0df-3da8-45ea-a392-22b0adcf1c51.png"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\5165c57f-41d4-42ed-a830-c0c1a722eaca.jpg",
+      "PackagePath": "staticwebassets\\img\\5165c57f-41d4-42ed-a830-c0c1a722eaca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\58ddb093-3f4b-494a-9686-c36077f2be63.jpg",
+      "PackagePath": "staticwebassets\\img\\58ddb093-3f4b-494a-9686-c36077f2be63.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\67c8d97a-659c-49e3-8c8d-af44d33dde03.jpg",
+      "PackagePath": "staticwebassets\\img\\67c8d97a-659c-49e3-8c8d-af44d33dde03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\6ad65a57-e6e7-49ba-ae33-d8234ca750ab.jpeg",
+      "PackagePath": "staticwebassets\\img\\6ad65a57-e6e7-49ba-ae33-d8234ca750ab.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\6faa3da0-e891-4880-8477-7de5a5f0120e.jpg",
+      "PackagePath": "staticwebassets\\img\\6faa3da0-e891-4880-8477-7de5a5f0120e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\75e54c10-f0e1-4e30-882b-1c7158d35be2.jpg",
+      "PackagePath": "staticwebassets\\img\\75e54c10-f0e1-4e30-882b-1c7158d35be2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\7ce94685-2e77-47b7-b2e7-7d1be24076da.jpg",
+      "PackagePath": "staticwebassets\\img\\7ce94685-2e77-47b7-b2e7-7d1be24076da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\8dbec2f9-336b-441c-ac09-655ec35c0f1f.jpg",
+      "PackagePath": "staticwebassets\\img\\8dbec2f9-336b-441c-ac09-655ec35c0f1f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\94809d4f-111a-4c90-901d-cbbc799393a9.jpg",
+      "PackagePath": "staticwebassets\\img\\94809d4f-111a-4c90-901d-cbbc799393a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\98b67d18-017b-4a4d-8fbe-11829b9ab7d6.jpg",
+      "PackagePath": "staticwebassets\\img\\98b67d18-017b-4a4d-8fbe-11829b9ab7d6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\9d51a0b5-ccdf-46db-a769-17876918889f.jpg",
+      "PackagePath": "staticwebassets\\img\\9d51a0b5-ccdf-46db-a769-17876918889f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\Adsız.png",
+      "PackagePath": "staticwebassets\\img\\Adsız.png"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\a26fc23a-3fdf-4213-8201-8992d0dea4dc.jpeg",
+      "PackagePath": "staticwebassets\\img\\a26fc23a-3fdf-4213-8201-8992d0dea4dc.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\a6a21cc1-2683-4261-a375-0853cb600a8f.jpg",
+      "PackagePath": "staticwebassets\\img\\a6a21cc1-2683-4261-a375-0853cb600a8f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\aefa6c25-d24a-4a24-805f-b4db9caa6e40.jpg",
+      "PackagePath": "staticwebassets\\img\\aefa6c25-d24a-4a24-805f-b4db9caa6e40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\b91fefc5-c071-429a-b159-825833fd58a7.jpg",
+      "PackagePath": "staticwebassets\\img\\b91fefc5-c071-429a-b159-825833fd58a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\c2482249-791e-40ab-8531-e3202e7dfaec.jpg",
+      "PackagePath": "staticwebassets\\img\\c2482249-791e-40ab-8531-e3202e7dfaec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\ce9b235f-f4df-4b66-98e4-1763b3f13ae6.jpg",
+      "PackagePath": "staticwebassets\\img\\ce9b235f-f4df-4b66-98e4-1763b3f13ae6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\cf004912-8be7-4144-8c31-02eeab6a4793.jpg",
+      "PackagePath": "staticwebassets\\img\\cf004912-8be7-4144-8c31-02eeab6a4793.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\d3501b36-353d-460f-8c00-1b4409ced9a1.jpg",
+      "PackagePath": "staticwebassets\\img\\d3501b36-353d-460f-8c00-1b4409ced9a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\d86a9491-25ac-439a-9636-2348fb25bbf5.jpg",
+      "PackagePath": "staticwebassets\\img\\d86a9491-25ac-439a-9636-2348fb25bbf5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\dfc7023e-493d-4857-944c-7a0b6f61ad02.jpg",
+      "PackagePath": "staticwebassets\\img\\dfc7023e-493d-4857-944c-7a0b6f61ad02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\dfdf6039-5e8c-4cf5-ae43-7a55d1778d9f.jpeg",
+      "PackagePath": "staticwebassets\\img\\dfdf6039-5e8c-4cf5-ae43-7a55d1778d9f.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\e6976624-8451-4caa-8534-ac31ce6b0bbd.jpg",
+      "PackagePath": "staticwebassets\\img\\e6976624-8451-4caa-8534-ac31ce6b0bbd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\e9023bff-80d5-462f-b4cc-366522bf830a.jpg",
+      "PackagePath": "staticwebassets\\img\\e9023bff-80d5-462f-b4cc-366522bf830a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\ea357c0b-636a-4d73-a3d0-5cd503665649.jpg",
+      "PackagePath": "staticwebassets\\img\\ea357c0b-636a-4d73-a3d0-5cd503665649.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\eca1d716-b70e-4d8d-a6ec-3004fa32cf06.jpg",
+      "PackagePath": "staticwebassets\\img\\eca1d716-b70e-4d8d-a6ec-3004fa32cf06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\empty.png",
+      "PackagePath": "staticwebassets\\img\\empty.png"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\f5d83a1e-a286-4b13-ad93-a3e7379ad3ee.jpg",
+      "PackagePath": "staticwebassets\\img\\f5d83a1e-a286-4b13-ad93-a3e7379ad3ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\img\\niba.png",
+      "PackagePath": "staticwebassets\\img\\niba.png"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Refika\\OneDrive\\Masaüstü\\ArabaKiralamaWebApp\\ArabaKiralamaWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ArabaKiralamaWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ArabaKiralamaWebApp.props",
+      "PackagePath": "build\\ArabaKiralamaWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ArabaKiralamaWebApp.props",
+      "PackagePath": "buildMultiTargeting\\ArabaKiralamaWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ArabaKiralamaWebApp.props",
+      "PackagePath": "buildTransitive\\ArabaKiralamaWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

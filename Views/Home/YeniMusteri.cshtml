@@ -1,0 +1,80 @@
+﻿@{
+    //Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Yeni Müsteri</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <script src=" https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    
+    @*doğum tarihini input ile sınırlayamadım. Yani DateTime.Now() dedim ama olmadı ben de bu şekilde yaptım*@
+
+    <script>
+        const birthdateInput = document.getElementById('birthdate');
+        const today = new Date();
+
+        birthdateInput.addEventListener('change', () => {
+            const birthdate = new Date(birthdateInput.value);
+
+            if (birthdate > today) {
+                alert('Geçersiz tarih. Lütfen bugünden daha küçük bir tarih girin.');
+                birthdateInput.value = '';
+            }
+        });
+    </script>
+</head>
+<body>
+
+    <form class="demo-form1" asp-action="YeniMusteri" method="post" enctype="multipart/form-data">
+       
+       
+        <h3 class="yenimusteri">Müşteri Bilgilerini Giriniz</h3>
+
+        <div class="input-wrap">
+            <label class="f-title" for="isim">Müşteri İsim Soyisim</label>
+            <input type="text" id="isim" name="Musteri_AdSoyad" class="input" placeholder="İsim/Soyisim" required>
+        </div>
+
+        <div class="input-wrap">
+            <label class="f-title" for="mail">Musteri EMail</label>
+            <input type="email" id="mail" name="Musteri_EMail" class="input" placeholder="E Posta Adresiniz" required>
+        </div>
+
+        <div class="input-wrap">
+            <label class="f-title" for="tel">Müşteri Telefon Numarası</label>
+            <input type="text" minlength="11" maxlength="11" id="tel" name="Musteri_TelNo" class="input" placeholder="(5xx) 123 45 67" required>
+        </div>
+
+        <div class="input-wrap">
+            <label class="f-title" for="kimlik">Müşteri Kimlik No</label>
+            <input type="text" minlength="11"  maxlength="11" id="kimlik" class="input" name="Musteri_Kimlik" placeholder="25274196385" required>
+        </div>
+
+        <div class="input-wrap">
+            <label class="f-title" for="birthdate">Musteri Doğum Tarihi</label>
+            <input type="date" max="2023-03-19" id="birthdate" name="Musteri_DogmTarihi" class="input" placeholder="gg.aa.yyyy" required>
+        </div>
+        <div class="input-wrap">
+            <label class="f-title" for="hesapno">Musteri Hesap Numarası</label>
+            <input type="text" id="hesapno" name="Musteri_HesapNo" class="input" placeholder="" required>
+        </div>
+
+        <div class="input-wrapp">
+            <label class="f-title">Fotograf</label>
+
+            <input  name="FileName" type="file" />
+        </div>
+
+        <div class="input-wrap">
+        <input type="submit" id="submit" name="submit" value="Ekle">
+        </div>
+    </form>
+
+
+</body>
+</html>

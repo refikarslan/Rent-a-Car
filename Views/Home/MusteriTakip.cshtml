@@ -1,0 +1,118 @@
+﻿@using ArabaKiralamaWebApp.ViewModels.RequestModels;
+@model ArabaKiralamaWebApp.ViewModels.RequestModels.MusteriTakipRequestModel
+
+@{
+   // Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" action="MusteriHareket" content="width=device-width" />
+    <title>MusteriTakip</title>
+    <script src=" https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+   
+     <form class="demo-form8" asp-action="MusteriTakip" method="get">
+              
+        <div class="wrape">
+            <label class="f-titles">Müşteri İsim : </label>
+            <select id="takip" class="inpute" asp-for="@Model.MusteriId" asp-items="@Model.Musteriler">
+            </select>
+        </div>
+
+@*    <label id="MusteriAdSoyad"></label>
+    <label id="ArabaMarka"></label>
+    <label id="KiraBaslangic"></label>
+    <label id="KiraBitis"></label>*@
+
+    </form>
+    <br />
+
+
+    <table class="table table-striped table-bordered table-sm">
+        <thead>
+            <tr>
+                <th>Müşteri Ad Soyad</th>
+                <th>Araba Marka</th>
+                <th>Kira Başlangıç</th>
+                <th>Kira Bitiş</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"> @*jquery ile bağlayan kısmı bu. yani orda append kısmında kullandım ben bunu*@
+        </tbody>
+    </table>
+               
+</body>
+</html>
+
+<script>
+
+    //$('#takip').change(function () {
+    //    debugger;
+        
+    //    var musteriId= $(this).val() 
+    //    $.ajax({
+    //        type: "GET",
+    //        url: '/Home/MusteriTakip/'+musteriId,
+    //        dataType: 'json',
+    //        contentType:"application/json",
+    //        success: function (data) {
+    //            console.log(data)
+    //            $.each(data,(index,musteriHareket)=>{
+    //                console.log(musteriHareket.musteri.musteri_AdSoyad)
+    //                $("#MusteriAdSoyad").html(musteriHareket.musteri.musteri_AdSoyad);
+    //                $("#ArabaMarka").html(musteriHareket.araba.araba_Marka);
+    //                $("#KiraBaslangic").html(musteriHareket.kiraBaslangic);
+    //                $("#KiraBitis").html(musteriHareket.kiraBitis);
+    //            })
+    //        },
+    //       error: function (data) {
+    //            console.log(data)
+    //        }
+    //    })
+    //});
+
+    $('#takip').change(function () {
+        var musteriId = $(this).val();
+        $.ajax({
+            type: "GET",
+            url: '/Home/MusteriTakip/' + musteriId,
+            dataType: 'json',
+            contentType: "application/json",
+            success: function (data) {
+                // Tabloyu temizle
+                $("#table-body").html("");
+                $.each(data, function (index, musteriHareket) {
+                    // Yeni bir tablo satırı oluştur
+                    var row = $("<tr>");
+                    // Müşteri ad soyad hücresini oluştur ve verileri yerleştir
+                    var adSoyadCell = $("<td>").text(musteriHareket.musteri.musteri_AdSoyad);
+                    // Araba marka hücresini oluştur ve verileri yerleştir
+                    var arabaMarkaCell = $("<td>").text(musteriHareket.araba.araba_Marka);
+                    // Kira başlangıç hücresini oluştur ve verileri yerleştir
+                    var kiraBaslangicCell = $("<td>").text(musteriHareket.kiraBaslangic.split('T')[0]);
+                   // html(response.musteri_DogmTarihi.split('T')[0]);
+                    // Kira bitiş hücresini oluştur ve verileri yerleştir
+                    var kiraBitisCell = $("<td>").text(musteriHareket.kiraBitis.split('T')[0]);
+                    // Satıra hücreleri ekle
+                    row.append(adSoyadCell, arabaMarkaCell, kiraBaslangicCell, kiraBitisCell);
+                    // Tabloya satırı ekle
+                    $("#table-body").append(row);
+                });
+            },
+            error: function (data) {
+                console.log(data);
+            }
+        });
+    });
+</script>
+
+
+ 

@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ArabaKiralamaWebApp</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ArabaKiralamaWebApp.styles.css" asp-append-version="true" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+        }
+
+        img {
+            /*padding: 5px;*/
+            width: 100px;
+            height: 50px;
+            float: left;
+            position:fixed;
+        }
+
+        .imgg {
+            padding: 5px;
+            width: 100px;
+            height: 50px;
+            float: left;
+           
+        }
+
+        .navbar {
+            height: 60px;
+        }
+
+        .navbar-brand {
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            font-size: 30px;
+            margin: auto;
+            line-height: 10px;
+            left: 120px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <img src="~/img/niba.png" class="imgg">
+                <h2 class="navbar-brand">Niba Rent a Car</h2>
+
+            </div>
+        </nav>
+    </header>
+
+
+    
+
+        <div class="sidebar">
+
+            <ul>
+                <li> <a href="/Home/Index">Ana Sayfa</a></li>
+
+                <li>
+                    <a href="#">Müşteri Hareket</a>
+
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="/Home/MusteriHareket">Listeye Git</a></li>
+                            <li><a href="/Home/MusteriHEkle">Ekle</a></li>
+                        </ul>
+                    </div>
+
+                </li>
+
+                <li>
+                    <a href="#">Müşteri</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="/Home/Musteri">Listeye Git</a></li>
+                            <li><a href="/Home/YeniMusteri">Ekle</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+                <li>
+                    <a href="#">Araba</a>
+                    <div class="dropdown">
+
+                        <ul>
+                            <li><a href="/Home/Araba">Listeye Git</a></li>
+                            <li><a href="/Home/YeniAraba">Ekle</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+                <li> <a href="/Home/MusteriTakip">Müşteri Takip</a></li>
+                <li> <a href="/Home/Hakkımızda">Hakkımızda</a></li>
+                <li> <a href="/Home/Iletisim">İletişim</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+   
+
+    <footer class="border-top footer text-muted">
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
